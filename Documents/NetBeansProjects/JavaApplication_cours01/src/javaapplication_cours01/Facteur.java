@@ -17,7 +17,7 @@ public class Facteur extends Personne implements iFacteur{
 
     @Override
     public void Distribuer() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.out.println("Distribuer du courrier !");
     }
 
     @Override
